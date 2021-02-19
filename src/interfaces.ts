@@ -1,7 +1,7 @@
-export type AnimationStyles = "bounce" | "color";
+export type AnimationStyles = "bounce" | "color" | "spin" | "grow";
 
 export type IAppProps = {
 	size?: string;
 	className?: string;
-	types?: AnimationStyles[];
+	animation?: AnimationStyles[] | AnimationStyles;
 };
